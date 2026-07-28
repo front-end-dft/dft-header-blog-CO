@@ -245,7 +245,7 @@ function jsProductionFor(country) {
     .pipe(
       through.obj((file, enc, cb) => {
         const jsContent = file.contents.toString(enc);
-        const final = `${overrideContent}<script>${jsContent}</script>`;
+        const final = `${overrideContent}${jsContent}`;
         file.contents = Buffer.from(final, enc);
         file.path = path.join(dest, 'main.js');
         cb(null, file);
