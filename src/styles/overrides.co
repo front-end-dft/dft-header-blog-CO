@@ -1,0 +1,13 @@
+#content {
+    display:block;
+    width:100%;
+}
+
+.dftContent {
+    overflow: initial;
+    padding-top: 0;
+}
+
+.cms-staticpage {
+    padding: 0;
+}

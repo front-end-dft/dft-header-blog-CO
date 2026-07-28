@@ -1,0 +1,26 @@
+@use 'variables' as *;
+
+.dafitiStructureHeader * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dafitiStructureHeader {
+  // width: 100vw;
+  // font-size: 87.5%;
+
+  // @media (max-width: $notebook-size) {
+  //   font-size: 78%;
+  // }
+
+  // @media (max-width: $tablet-size) {
+  //   font-size: 75%;
+  // }
+
+  // @media (max-width: $mobile-size) {
+  //   font-size: 90%;
+  // }
+}

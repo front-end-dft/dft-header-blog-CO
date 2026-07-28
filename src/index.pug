@@ -1,0 +1,68 @@
+include views/imports
+
+doctype html
+html(lang="pt-br")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title Estrutura Dafiti
+        link(rel="stylesheet" href="styles/main.css")
+        style.
+            .dafitiStructureHeader {
+                width: 100vw;
+                font-size: 87.5%;
+            }
+
+            @media (max-width: 1400px) {
+                .dafitiStructureHeader {
+                    font-size: 78%;
+                }
+            }
+
+            @media (max-width: 1000px) {
+                .dafitiStructureHeader {
+                    font-size: 75%;
+                }
+            }
+
+            @media (max-width: 650px) {
+                .dafitiStructureHeader {
+                    font-size: 90%;
+                }
+            }
+
+    body(style="font-size: 11px; font-family: 'Roboto', sans-serif; box-sizing: border-box; margin: 0; padding: 0;")
+        .boxHeader
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wdth,wght@0,87.5,100..900;1,87.5,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+            
+
+            //- - const _active = (typeof activePage !== 'undefined') ? activePage : ''
+            //- - const isProd = (typeof env !== 'undefined' && env === 'production')
+            //- - const homeUrl = isProd ? '/teste-blog/' : 'index.html'
+            //- - const homeLoja = isProd ? 'https://www.dafiti.com.br/' : 'index.html'
+            //- - const NAV_ITEMS = [{ slug: 'tendencia', label: 'Tendencia', url: '/teste-denilson/' }, { slug: 'inspiracion', label: 'Inspiración', url: '' }, { slug: 'tips', label: 'Tips', url: '' }, { slug: 'glosario-fashion', label: 'Glosario Fashion', url: '' }, { slug: 'dafiti', label: 'Dafiti', url: '' }]
+
+            //- header
+            //-     .maxHeader
+            //-         a.barraLoja(href=homeLoja target="_blank" rel="noopener") IR A LA TIENDA
+            //-         a.logoLink(href=homeUrl)
+            //-             img(src="https://static.dafiti.com.br/cms/svg/2026_04_08_16_09_56_dft-blog.svg", alt="Dafiti Blog", title="Dafiti Blog")
+
+            //-         button.hamburger(aria-label="Abrir menu")
+            //-             span
+            //-             span
+            //-             span
+
+            //-         nav.menu-categorias
+            //-             ul
+            //-                 each item in NAV_ITEMS
+            //-                     - const href = isProd ? item.url : `${item.slug}.html`
+            //-                     li: a(href=href data-slug=item.slug class=`menu-btn${_active === item.slug ? ' active' : ''}`)= item.label
+
+            //-         a.buttonLoja(href=homeLoja target="_blank" rel="noopener") Ir a la tienda
+            
+    //- script(src="external/scripts.js")
+    script(src="https://cdn.jsdelivr.net/npm/keen-slider@6.8.5/keen-slider.min.js")
+    script(src="js/main.js")
