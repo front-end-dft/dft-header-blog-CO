@@ -16,11 +16,11 @@ setTimeout(function() {
 function montarMenuDafiti() {
     // 1. Configuração dos itens do menu
     var navItems = [
-        { slug: 'tendencia', label: 'Tendencia', href: 'tendencia.html' },
-        { slug: 'inspiracion', label: 'Inspiración', href: 'inspiracion.html' },
-        { slug: 'tips', label: 'Tips', href: 'tips.html' },
-        { slug: 'glosario-fashion', label: 'Glosario Fashion', href: 'glosario-fashion.html' },
-        { slug: 'dafiti', label: 'Dafiti', href: 'dafiti.html' }
+        { slug: 'tendencia', label: 'Tendencia', href: '/blog-tendencia' },
+        { slug: 'inspiracion', label: 'Inspiración', href: '/blog-inspiracion' },
+        { slug: 'tips', label: 'Tips', href: '/blog-tips' },
+        { slug: 'glosario-fashion', label: 'Glosario Fashion', href: '/blog-glosario-fashion' },
+        { slug: 'universo-dafiti', label: 'Universo Dafiti', href: '/blog-universo-dafiti' }
     ];
 
     var linksPadrao = {
@@ -49,7 +49,7 @@ function montarMenuDafiti() {
         '<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wdth,wght@0,87.5,100..900;1,87.5,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">' +
         '<header>' +
             '<div class="maxHeader">' +
-                '<a class="barraLoja" href="' + linksPadrao.loja + '" target="_blank" rel="noopener">IR A LA TIENDA</a>' +
+                '<a class="barraLoja" href="https://www.dafiti.com.co/"' + linksPadrao.loja + '" target="_blank" rel="noopener">IR A LA TIENDA</a>' +
                 '<a class="logoLink" href="' + linksPadrao.loja + '">' +
                     '<img src="' + linksPadrao.logoSvg + '" alt="Dafiti Blog" title="Dafiti Blog">' +
                 '</a>' +
@@ -61,7 +61,7 @@ function montarMenuDafiti() {
                         menuListHtml +
                     '</ul>' +
                 '</nav>' +
-                '<a class="buttonLoja" href="' + linksPadrao.loja + '" target="_blank" rel="noopener">Ir a la tienda</a>' +
+                '<a class="buttonLoja" href="https://www.dafiti.com.co/"' + linksPadrao.loja + '" target="_blank" rel="noopener">Ir a la tienda</a>' +
             '</div>' +
         '</header>';
 
