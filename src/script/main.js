@@ -125,7 +125,7 @@ function initActiveAndScrollTop() {
     if (logoLink) {
         logoLink.addEventListener('click', function(e) {
             var logoHref = logoLink.getAttribute('href') || '';
-            var isHome = normalize(currentPath) === normalize(logoHref) || currentPath === '/' || currentPath.endsWith('index.html');
+            var isHome = normalize(currentPath) === normalize(logoHref) || currentPath === '/' || currentPath.endsWith('https://www.dafiti.com.co/blog');
             if (isHome) {
                 e.preventDefault();
                 window.scrollTo({ top: 0, behavior: 'smooth' });
