@@ -17,9 +17,9 @@ function montarMenuDafiti() {
     // 1. Configuração dos itens do menu
     var navItems = [
         { slug: 'tendencia', label: 'Tendencia', href: '/blog-tendencia' },
-        { slug: 'inspiracion', label: 'Inspiración', href: '/blog-inspiracion' },
-        { slug: 'tips', label: 'Tips', href: '/blog-tips' },
-        { slug: 'glosario-fashion', label: 'Glosario Fashion', href: '/blog-glosario-fashion' },
+        { slug: 'guia-de-estilo', label: 'Guía de estilo', href: '/blog-guia-de-estilo' },
+        { slug: 'marcas-y-moda', label: 'Marcas y Moda', href: '/blog-marcas-y-moda' },
+        { slug: 'eventos-de-temporada', label: 'Eventos de temporada ', href: '/blog-eventos-de-temporada' },
         { slug: 'universo-dafiti', label: 'Universo Dafiti', href: '/blog-universo-dafiti' }
     ];
 
