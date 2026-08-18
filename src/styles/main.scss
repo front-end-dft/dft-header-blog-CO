@@ -3,6 +3,9 @@
 @use './../styles/imports.scss' as imports;
 
 // ─── Header / Navegação ─── //
+[data-slug="eventos-de-temporada"] {
+  display: none !important;
+}
 
 .bodyBlog {
     position: sticky;

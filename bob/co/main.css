@@ -18,6 +18,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+[data-slug=eventos-de-temporada] {
+  display: none !important;
+}
+
 .bodyBlog {
   position: sticky;
   top: 0;
