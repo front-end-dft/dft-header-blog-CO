@@ -24,7 +24,7 @@ function montarMenuDafiti() {
     ];
 
     var linksPadrao = {
-        loja: 'index.html',
+        loja: 'https://www.dafiti.com.co/blog',
         logoSvg: 'https://static.dafiti.com.br/cms/svg/2026_04_08_16_09_56_dft-blog.svg'
     };
 
